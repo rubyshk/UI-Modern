@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Noto+Sans:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+/* start of navbar */
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inside-nav{
+    width: 91%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inside-nav h6{
+    color: white;
+    font-size: 22px;
+}
+.inside-nav ul li{
+    font-size: 15px;
+    color: white;
+}
+.inside-nav ul li a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.inside-nav ul li a{
+    color: white;
+}
+.inside-nav ul{
+    list-style: none;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* end of navbar */
+/* start of hero section */
+.hero-section{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.inside-hero-section{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+}
+.inside-hero-section h1{
+    font-size: 80px;
+}
+.text-section{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+.text{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+.text p{
+    /* color: rgb(203, 196, 196); */
+    color: rgba(255, 255, 255, 0.845);
+    font-size: 14px;
+    line-height: 20px;
+}
+.bottom-line pre{
+    color: rgba(255, 255, 255, 0.845);
+    font-size: 14px;
+    line-height: 20px;
+}
+.bottom-line a{
+    text-decoration: none;
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+}
+/* end of hero section */
+/* start of card section */
+.card{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inside-card{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box1{
+    width: 23%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: rgb(236, 168, 210);
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 0px 40px 20px ;
+}
+.card-img1 img{
+    width: 50px;
+}
+.card-img2 img{
+    width: 40px;
+}
+.card-img3 img{
+    width: 50px;
+}
+.card-img4 img{
+    width: 40px;
+}
+.box2{
+    width: 23%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: rgb(239, 236, 60);
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 0px 40px 20px ;
+}
+.box3{
+    width: 23%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: rgb(252, 127, 38);
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 0px 40px 20px ;
+}
+.box4{
+    width: 23%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 0px 40px 20px ;
+}
+.in-box{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: yellow; */
+}
+.in-box h6{
+    font-size: 16px;
+}
+.in-box2{
+    width: 280px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: yellow; */
+}
+.in-box2 h6{
+    font-size: 16px;
+}
+.in-box2 span{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}   
+.in-box2 hr{
+    width: 280px;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+.right-arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-arrow i{
+    font-size: 20px;
+}
+/* end of card section */
+
+/* Responsive Design */
+@media (max-width:768px) {
+    /* nav */
+    nav{
+        width: 100%;
+    }
+    /* hero section */
+    .hero-section{
+        width: 100%;
+        height: 350px;
+    }
+    .inside-hero-section h1{
+        font-size: 50px;
+    }
+    .text-section{
+        height: 170px;
+        /* background-color: green; */
+    }
+    .text p{
+        font-size: 12px;
+    }
+    .text p br{
+        display: none;
+    }
+    /* hero section closed */
+    /* card section */
+    .card{
+        height: 850px;
+    }
+    .box1{
+        width: 48%;
+        height: 380px;
+    }
+    .box2{
+        width: 48%;
+        height: 380px;
+    }
+    .box3{
+        width: 48%;
+        height: 380px;
+    }
+    .box4{
+        width: 48%;
+        height: 380px;
+    }
+}
